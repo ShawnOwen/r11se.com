@@ -113,7 +113,7 @@
     });
   });
 
-  fetch("/data/tracks.json")
+  fetch("data/tracks.json")
     .then((r) => r.json())
     .then((data) => {
       tracks = data;
